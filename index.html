@@ -13,7 +13,20 @@
         </header>
         <main>
             <p>Entre em contato atravez do:</p>
-            <a href="https://www.google.com">google</a>
+            <a href="https://www.google.com">
+                <button onclick="mostrarMensagem()">clique aqui</button>
+            </a> 
         </main>
+        <div class="caixa">
+            <h2>Bem-Vinda!</h2>
+            <p>Esta é uma caixa de conteúdo.</p>
+        </div>
+        <div>
+            <h2>Digite um Número:</h2>
+            <input type="number" id="numero">
+            <button onclick="verificarNumero()">Verificar</button>
+            <div id="resultado"></div>
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>

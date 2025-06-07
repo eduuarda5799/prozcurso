@@ -1,6 +1,6 @@
 body {
     font-family: "roboto",sans-serif;
-    background-color: #e7c4c4;
+    background-color: #bd8e8e;
     color: #333;
     margin: 0;
     padding: 20px;
@@ -10,8 +10,8 @@ h1{
 }
 main{
     font-family: "roboto",sans-serif;
-    background-color: #cee75b;
-    color: #333;
+    background-color: white;
+    color: #161313;
     margin: 0;
     padding: 20px;
 }
@@ -21,4 +21,10 @@ p{
 a{
     color:chocolate;
     text-decoration: double;
+}
+
+div.caixa {
+    border:1px black
+    padding: 40px
+    background-color:white
 }
